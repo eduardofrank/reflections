@@ -6,3 +6,23 @@ How is the staging area different from the working directory and the repository?
 
 	The staging area is an area you use to organize the files before committing. That is the main difference to working directory and repository and also its biggest value too.
 	
+How can you use the staging area to make sure you have one commit per logical change?
+
+	By using git diff you can see what is on the staging area and compare it to the working directory. This way you can make sure you commit a single logical change.
+	
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	Branches come in handy when we would like to experiment with new code, while keeping the master branch intact.
+	
+How do the diagrams help you visualize the branch structure?
+
+	They give the history for all the branches in the structure and their nodes.
+	
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	The result is the master branch with all its own commits plus the commits of the merged branch all sorted by time stamps.
+	
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Automatic merging works fine when there are no conflicts, but when theses arise, it is better to resolve them manually.
+	
